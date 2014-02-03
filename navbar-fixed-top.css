@@ -1,0 +1,16 @@
+body {
+  /*min-height: 2000px;*/
+  /*padding-top: 220px;*/
+  padding-top: 90px;
+}
+
+a.anchor{
+	display: block;
+	position: relative;
+	top: -90px;
+	visibility: hidden;
+}
+
+.logos img {
+    margin: 17px 17px 17px 17px;
+}
