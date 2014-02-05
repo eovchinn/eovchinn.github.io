@@ -6775,7 +6775,7 @@ button.close {
   bottom: 0;
   left: 0;
   width: 15%;
-  font-size: 20px;
+  font-size: 30px;
   color: #6495ED;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -6799,7 +6799,7 @@ button.close {
 
 .carousel-control:hover,
 .carousel-control:focus {
-  color: #ffffff;
+  color: #6495ED;
   text-decoration: none;
   outline: none;
   opacity: 0.9;
@@ -6864,7 +6864,7 @@ button.close {
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #ffffff;
+  border: 1px solid #6495ED;
   border-radius: 10px;
 }
 
@@ -6872,7 +6872,7 @@ button.close {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #6495ED;
 }
 
 .carousel-caption {
@@ -6883,7 +6883,7 @@ button.close {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #ffffff;
+  color: #6495ED;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
