@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ekaterina (Katya) Ovchinnikova's homepage">
+  <link rel="shortcut icon" href="imgs/snail.png">
+
+  <title>Metaphor project links</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../dist/css/bootstrap.css" rel="stylesheet">
+
+
+</head>
+
+    <div class="container">
+      <div>
+        <a class="anchor" id="Home"></a>
+        <div>
+           <h2>Metaphor project links</h2>
+	        <ul>
+        	<li><a href="https://github.com/metaphor-adp/Metaphor-ADP">Metaphor detection and interpretation pipeline (incl. generation of logical forms for English, Spanish, Russian, and Farsi)</a></li>
+        	<li>Proposition stores</li>
+			<ul>
+			 <li><a href"https://github.com/zaycev/mokujin">Tools for generating proposition stores</a></li>
+			 <li><a href="http://colo-vm19.isi.edu:8000/">Web service for querying proposition stores</a></li>
+			<li><a href="https://github.com/zaycev/ds-data">Download proposition stores in English, Spanish, and Russian</a></li>
+        		</ul>
+        	<li><a href="https://github.com/zaycev/mokujin">Tools for proposing sources</a></li>
+        	<li><a href="https://github.com/zaycev/metaphor-search">Tools for finding linguistic metaphors</a></li>
+        	<li>Validation data</li>
+			<ul>
+			 <li><a href="http://ovchinnikova.me/suppl/AbductionSystem-Metaphor-Validation.7z">Interpretation validation</a></li>
+        		</ul>
+        	</ul>
+        </div>
+    </div>
+
+
+  </body>
+  </html>
