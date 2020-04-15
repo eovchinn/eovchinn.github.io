@@ -51,6 +51,9 @@
             <a class="nav-link" href="#activism">Activism</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#media">Media</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="CV.pdf">CV</a>
           </li>
 	 <li class="nav-item">
@@ -82,7 +85,7 @@
   <!-- Content section -->
   <section class="py-5">
     <div class="container">
-      <p class="lead">I work on computational analysis of mass spectrometry and ocean health data at <a href="https://www.embl.de">the European Molecular Biology Laboratory</a>, Heidelberg, Germany. I'm also part of <a href="https://homewardboundprojects.com.au">Homeward Bound</a>, a leadership program for women in STEMM focusing on climate change. For more details, please check my <a href="https://katja-hb.home.blog">blog</a> and twitter <a href="https://twitter.com/Katja_HB4">@Katja_HB4</a>.</p>
+      <p class="lead">I work on computational analysis of mass spectrometry and marine science data at <a href="https://www.embl.de">the European Molecular Biology Laboratory</a>, Heidelberg, Germany. I'm also part of <a href="https://homewardboundprojects.com.au">Homeward Bound</a>, a leadership program for women in STEMM focusing on climate change. For more details, please check my <a href="https://katja-hb.home.blog">blog</a> and twitter <a href="https://twitter.com/Katja_HB4">@Katja_HB4</a>.</p>
     </div>
   </section>
 
@@ -90,6 +93,7 @@
   <section id="projects" class="py-5">
     <div class="container">
 	<div> <h1>Current projects</h1></div>
+	<div class="row">
 	<div class="card-deck">
 		<div class="card" style="width: 25rem;">
   			<img class="card-img-top" src="imgs/metaspace.png" alt="">
@@ -116,15 +120,16 @@
     				<p class="card-text">Automatic detection of scallops in sea bottom imagery. In collaboration with <a href="https://risweb.st-andrews.ac.uk/portal/en/persons/mark-andrew-james(fb2de0b9-3cbc-4097-95a7-28bdad2a0cb2).html">University of St. Andrews</a>.</p>
   			</div>
 		</div>
-
 	</div>
-  </section>
+	</div>
+</section>
 
 <section class="py-5">
-    <div class="container">
-	<div> <h1>Past projects</h1></div>
-	<div class="card-deck">
-		<div class="card" style="width: 25rem;">
+<div class="container">
+<div> <h1>Past projects</h1></div>
+    <div class="row">
+        <div class="card-deck">
+		<div class="card">
   			<img class="card-img-top" src="imgs/Xperience.png" alt="">
   			<div class="card-body">
     				<h5 class="card-title">XPERIENCE</h5>
@@ -132,8 +137,7 @@
    				<a href="http://www.xperience.org/" class="btn btn-primary">project website</a>
   			</div>
 		</div>
-
-		<div class="card" style="width: 25rem;">
+		<div class="card">
   			<img class="card-img-top" src="imgs/manta.jpg" alt="">
   			<div class="card-body">
     				<h5 class="card-title">Photo ID of manta rays</h5>
@@ -142,7 +146,7 @@
   			</div>
 		</div>
 
-		<div class="card" style="width: 25rem;">
+		<div class="card">
   			<img class="card-img-top" src="imgs/whale.png" alt="">
   			<div class="card-body">
     				<h5 class="card-title">Photo ID of blue whales</h5>
@@ -150,15 +154,9 @@
 				<a href="http://www.hamerinhawaii.org/" class="btn btn-primary">github repo</a>
   			</div>
 		</div>
-
-	</div>
-  </section>
-
-<section class="py-5">
-    <div class="container">
-	<div class="card-deck">
-
-		<div class="card" style="width: 25rem;">
+        </div>
+        <div class="card-deck">
+            <div class="card">
   			<img class="card-img-top" src="imgs/hst.png" alt="">
   			<div class="card-body">
     				<h5 class="card-title">Heider-Simmel Interactive Theater </h5>
@@ -166,7 +164,7 @@
 				<a href="https://hsit.ict.usc.edu/" class="btn btn-primary">project website</a>
   			</div>
 		</div>
-		<div class="card" style="width: 25rem;">
+		<div class="card">
   			<img class="card-img-top" src="imgs/pipeline-pic.png" alt="">
   			<div class="card-body">
     				<h5 class="card-title">Metaphor Interpretation for Cultural Schemas</h5>
@@ -175,22 +173,17 @@
   			</div>
 		</div>
 
-		<div class="card" style="width: 25rem;">
-  			<div class="card-body">
-    				<h5 class="card-title">Machine Reading</h5>
-    				<p class="card-text">Acquiring knowledge by machine reading. I worked on turning lexical-semantic databases like WordNet and FrameNet into machine-readable FOL axioms applicable for reasoning.</p>
-  			</div>
+		<div class="card">
+	  			<img class="card-img-top" src="imgs/momo.png" alt="">
+	  			<div class="card-body">
+	    				<h5 class="card-title">Grammar Formalisms and Parsing</h5>
+	    				<p class="card-text">Online course for teaching grammar formalisms and parsing. I developed the MoMo graphical tool for visualizing formal grammars.</p>
+	   				<a href="http://www.sfs.uni-tuebingen.de/~fr/current/textbook.html" class="btn btn-primary">course materials</a>
+	  			</div>
 		</div>
-
-		
-	</div>
-  </section>
-
-<section class="py-5">
-    <div class="container">
+        </div>
 	<div class="card-deck">
-
-<div class="card" style="width: 25rem;">
+		<div class="card">
   			<div class="card-body">
     				<h5 class="card-title">Adaptive Ontologies on extreme Markup Structures</h5>
     				<p class="card-text">Automatic extraction of ontological knowledge from text and updating existing knowledge bases. I developed algorithms for non-monotonic ontology updates including automatic resolution of ontological inconsistencies.</p>
@@ -198,28 +191,29 @@
   			</div>
 		</div>
 
-		<div class="card" style="width: 25rem;">
+		<div class="card">
   			<div class="card-body">
     				<h5 class="card-title">Distributional Idiosyncrasies</h5>
     				<p class="card-text">Studying how syntactic, semantic, and selectional properties constraint lexical elements in their contexts of use. I worked on developing a similarity measure for comparing grammatical structures and on implementing a web service for psycholinguistic experiments.</p>
 <a href="http://www.english-linguistics.de/sfb441/a5/" class="btn btn-primary">project website</a>
   			</div>
 		</div>
-	<div class="card" style="width: 16rem;">
-  			<img class="card-img-top" src="imgs/momo.png" alt="">
+		<div class="card">
   			<div class="card-body">
-    				<h5 class="card-title">Grammar Formalisms and Parsing</h5>
-    				<p class="card-text">Online course for teaching grammar formalisms and parsing. I developed the MoMo graphical tool for visualizing formal grammars.</p>
-   				<a href="http://www.sfs.uni-tuebingen.de/~fr/current/textbook.html" class="btn btn-primary">course materials</a>
+    				<h5 class="card-title">Machine Reading</h5>
+    				<p class="card-text">Acquiring knowledge by machine reading. I worked on turning lexical-semantic databases like WordNet and FrameNet into machine-readable FOL axioms applicable for reasoning.</p>
   			</div>
+		</div>
 	</div>
-	</div>
-	</div>
-  </section>
+    </div>
+</div>
+</section>
+
+
 
   <section id="pubs" class="py-5">
     <div class="container">
-	<div> <h1>Publications</h1></div>
+	<div> <h1>Scientific publications</h1></div>
 
 	<h4>Books</h4>
       <table>
@@ -338,7 +332,6 @@
     <div class="container">
 	<div> <h1>Climate activism</h1></div>
 	<div class="card-deck">
-
 		<div class="card" style="width: 25rem;">
   			<img class="card-img-top" src="imgs/HB.jpg" alt="">
   			<div class="card-body">
@@ -361,7 +354,7 @@
   			<img class="card-img-top" src="imgs/climate_workshop.png" alt="">
   			<div class="card-body">
     				<h5 class="card-title">Climate change and action</h5>
-    				<p class="card-text">Interactive workshop on climate change, politics, and action. I designed the materials and ran the workshops together with Jan-Marcus Nasse.</p>
+    				<p class="card-text">Interactive workshop on climate science, politics, and action. I designed the materials and ran the workshops together with Jan-Marcus Nasse.</p>
    				<a href="https://github.com/eovchinn/ClimateWorkshop" class="btn btn-primary">workshop materials</a>
   			</div>
 		</div>
@@ -370,6 +363,68 @@
 </div>
 </div>
   </section>
+
+<section id="media" class="py-5">
+	<div class="container">
+	<div> <h1>Selected media</h1></div>
+	<br>
+	<div> <h4>My videos and writing</h4></div>
+	<div class="card-deck">
+		<div class="card">
+    			<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yqdJ10LKe10" allowfullscreen></iframe></div>
+  			<div class="card-body">
+    				<h5 class="card-title">Symposium at sea in Antartica</h5>				
+  			</div>
+		</div>
+		<div class="card">
+    			<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zWyO_JOkcLM" allowfullscreen></iframe></div>
+  			<div class="card-body">
+    				<h5 class="card-title">Climate change and action lecture</h5>				
+  			</div>
+		</div>
+		<div class="card">
+    			<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2_Hj7RoFaWk" allowfullscreen></iframe></div>
+  			<div class="card-body">
+    				<h5 class="card-title">Science for our planet and communities: interviews</h5>				
+  			</div>
+		</div>
+		<div class="card">
+  			<img class="card-img-top" src="imgs/blog.png" alt="">
+  			<div class="card-body">
+   				<a href="https://katja-hb.home.blog/" class="btn btn-primary">read blog</a>				
+  			</div>
+		</div>
+	</div>
+	</div>	
+	<div class="container">
+	<br>
+	<div> <h4>Press about me</h4></div>
+	<div class="card-deck">
+		<div class="card">
+  			<img class="card-img-top" src="imgs/HB_pub.png" alt="">
+  			<div class="card-body">
+    				<h5 class="card-title">
+    				<h5 class="card-title">Energy News Network about our Homeward Bound voyage</h5>				
+   				<a href="https://energynews.us/2019/12/11/national/for-women-on-antarctic-trip-a-chance-to-reshape-climate-research-and-more/" class="btn btn-primary">read article</a>				
+  			</div>
+		</div>
+		<div class="card">
+  			<img class="card-img-top" src="imgs/WinS.png" alt="">
+  			<div class="card-body">
+    				<h5 class="card-title">Interview for "Women in science" book</h5>				
+   				<a href="https://go.technologynetworks.com/women-in-science" class="btn btn-primary">download e-book</a>				
+  			</div>
+		</div>
+		<div class="card">
+  			<img class="card-img-top" src="imgs/EMBL_mag.png" alt="">
+  			<div class="card-body">
+    				<h5 class="card-title">Interview for EMBL magazine</h5>				
+   				<a href="https://issuu.com/embl/docs/embl_magazine_summer_2019" class="btn btn-primary">download magazine</a>				
+  			</div>
+		</div>
+	</div>		
+	</div>		
+</section>
 
 <section id="contact" class="py-5">
     <div class="container">
