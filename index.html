@@ -30,7 +30,7 @@
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="nav navbar-nav navbar-left">
-              <li><a href="mailto:katja@ovchinnikova.me" target="_blank"><img src="imgs/email.png" alt=""></a>
+              <li><a href="#contact"><img src="imgs/email.png" alt=""></a>
 	      &nbsp;&nbsp;
               <a href="https://www.linkedin.com/in/katja-ovchinnikova-34980871/" target="_blank"><img src="imgs/linkedin.png" alt=""></a>
         &nbsp;&nbsp;
@@ -57,9 +57,10 @@
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link" href="#media">Media</a>
           </li>
-          <li class="nav-item">
+
+          <!--<li class="nav-item">
             <a class="nav-link" href="CV.pdf">CV</a>
-          </li>
+          </li>-->
 	 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
@@ -553,11 +554,25 @@
 
 <section id="contact" class="pt-5 pb-5" style="background-color: #eeeff0;">
   <div class="container">
-	<div> <h1>Contact</h1></div>
-  <div>email: <a href="mailto:katja@ovchinnikova.me">katja@ovchinnikova.me</a></div>
-	<div>blog: <a href="https://katja-hb.home.blog/">katja-hb.home.blog</a></div>
-  <div>linkedIn: <a href="https://www.linkedin.com/in/katja-ovchinnikova-34980871">katja-ovchinnikova-34980871</a></div>
+    <h1>Contact me</h1>
+    <form target="_blank" action="https://formsubmit.co/katja.ovch☺gmail.com" method="POST">
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col">
+            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+          </div>
+          <div class="col">
+            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-primary">Send</button>
+    </form>
   </div>
+
 </section>
 
   <!-- Bootstrap core JavaScript -->
